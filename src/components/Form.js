@@ -12,7 +12,7 @@ export default function Form({
   const [valueInput, setValueInput] = useState(0);
 
   return (
-    <div className="bg-white shadow-md rounded px-8 py-6 w-full max-w-lg">
+    <div className="bg-white shadow-md rounded px-8 py-6 w-11/12 max-w-lg">
       <div className="mb-4">
         <label
           className="block text-gray-700 text-sm font-bold mb-2"

@@ -84,7 +84,7 @@ export default function Home() {
           valueContract={valueContract}
           setterLoading={setterLoading}
         />
-        <footer className="mt-2">
+        <footer className="mt-2 text-center">
           Made with &#10084; and &#9749; by @muhammadiqbals17
         </footer>
       </div>
