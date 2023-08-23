@@ -76,6 +76,9 @@ export default function Home() {
         <title>Dapps | Simple Getter Setter</title>
       </Head>
       <div className="flex flex-col justify-center items-center h-screen">
+        <div className="w-full bg-amber-600 text-center font-bold text-white py-2 absolute top-0">
+          <p>Note: Dapps ini berjalan di jaringan Sepolia</p>
+        </div>
         <Form
           connect={connectWallet}
           address={address}
